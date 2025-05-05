@@ -1,7 +1,7 @@
 # shortlink-website
 Pemendek URL ini tidak memerlukan hosting untuk menyimpan tautan yang sudah diperpendek. Semua tautan yang sudah diperpendek disimpan di akun short.io, karena Pemendek URL ini based on short.io
 
-Demo version :
+Demo version : https://aldyalfiansyh.github.io/shortlink-website/
 
 Note : Shortlink tidak berjalan karna tidak ada API nya dan hanya berfungsi sebagai preview saja.
 
