@@ -1,5 +1,5 @@
 # shortlink-website
-Pemendek URL ini tidak memerlukan hosting untuk menyimpan tautan yang sudah diperpendek. Semua tautan yang sudah diperpendek disimpan di akun short.io, karena Pemendek URL ini based on short.io
+Pemendek URL ini tidak memerlukan hosting untuk menyimpan tautan yang sudah diperpendek. Semua tautan yang sudah diperpendek disimpan di akun short.io, karena Pemendek URL ini based on short.io. Namun kamu masih memerlukan hosting untuk menjadikan program ini dapat diakses oleh semua orang (online).
 
 Demo version : https://aldyalfiansyh.github.io/shortlink-website/
 
@@ -23,6 +23,6 @@ Cara menginstall :
 6.	Pada bagian ‘API_KEY’ ganti dengan API Key yang sudah dibuat tadi
 7.	Selesai
 
-Supaya dapat diakses oleh banyak orang, unggah file kamu ke platform hosting yang kamu punya
+Supaya dapat diakses oleh banyak orang, unggah file kamu ke platform hosting yang kamu punya. Kamu bisa menggunakan Vercel atau Netlify untuk hosting gratis.
 
 ---------------------------------------------------------
