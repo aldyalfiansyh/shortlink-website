@@ -1,0 +1,129 @@
+:root {
+    --primary: #6366f1;
+    --primary-hover: #4f46e5;
+    --background: #f8fafc;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    color: #1e293b;
+    margin: 0 0 2rem 0;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.input-group {
+    position: relative;
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+
+input[type="url"] {
+    width: 100%;
+    padding: 1rem 1rem 1rem 3rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+input[type="url"]:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.link-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #64748b;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    margin-top: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-1px);
+}
+
+#message {
+    margin: 1.5rem 0 0 0;
+    padding: 1rem;
+    background: #f1f5f9;
+    border-radius: 0.5rem;
+    color: #1e293b;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 0.5rem;
+}
+
+.feature-item svg {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+}
