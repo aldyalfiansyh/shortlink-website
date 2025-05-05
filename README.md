@@ -3,7 +3,7 @@ Pemendek URL ini tidak memerlukan hosting untuk menyimpan tautan yang sudah dipe
 
 Demo version : https://aldyalfiansyh.github.io/shortlink-website/
 
-Note : Shortlink tidak berjalan karna tidak ada API nya dan hanya berfungsi sebagai preview saja.
+Note : Shortlink tidak berjalan karna tidak ada API nya dan hanya berfungsi sebagai preview tampilan saja.
 
 ---------------------------------------------------------
 
